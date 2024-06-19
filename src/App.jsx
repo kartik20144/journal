@@ -93,7 +93,9 @@ function App() {
         </>
       ),
     },
-  ]);
+  ],
+  { basename: '/journal' }
+);
   return (
     <>
     <RouterProvider router={router} />
