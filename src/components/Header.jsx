@@ -86,7 +86,7 @@ const Header = () => {
             isOpen ? "max-h-screen nav " : "max-h-0 "
           } overflow-hidden absolute z-50 top-[5.1rem] left-0 text-white w-full bg-gray-800 md:hidden transition-max-height transition-all duration-700 ease-in-out`}
         >
-          <a href="#home" className="block p-4 hover:bg-gray-700 nav-link">
+          <a href="/journal" className="block p-4 hover:bg-gray-700 nav-link">
             Journals
           </a>
           <a href="#about" className="block p-4 hover:bg-gray-700 nav-link">
