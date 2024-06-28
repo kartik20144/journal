@@ -31,11 +31,11 @@ const Header = () => {
           <a href="/journal" className="nav-link">
             Journals
           </a>
-          <a href="#about" className="nav-link">
+          {/* <a href="#about" className="nav-link">
             Journal Guidelines
-          </a>
+          </a> */}
           <a href="#services" className="nav-link">
-            Our Services
+            Our Policies
           </a>
           <a href="#contact" className="nav-link">
             Join Us
@@ -43,9 +43,9 @@ const Header = () => {
           <a href="#contact" className="nav-link">
             Submit Manuscript
           </a>
-          <a href="#contact" className="nav-link">
+          {/* <a href="#contact" className="nav-link">
             Contact
-          </a>
+          </a> */}
           <div className="relative">
             <input
               type="text"
@@ -89,11 +89,11 @@ const Header = () => {
           <a href="/journal" className="block p-4 hover:bg-gray-700 nav-link">
             Journals
           </a>
-          <a href="#about" className="block p-4 hover:bg-gray-700 nav-link">
+          {/* <a href="#about" className="block p-4 hover:bg-gray-700 nav-link">
             Journal Guidelines
-          </a>
+          </a> */}
           <a href="#services" className="block p-4 hover:bg-gray-700 nav-link">
-            Our Services
+            Our Policies
           </a>
           <a href="#contact" className="block p-4 hover:bg-gray-700 nav-link">
             Join Us
@@ -101,9 +101,9 @@ const Header = () => {
           <a href="#contact" className="block p-4 hover:bg-gray-700 nav-link">
             Submit Manuscript
           </a>
-          <a href="#contact" className="block p-4 hover:bg-gray-700 nav-link">
+          {/* <a href="#contact" className="block p-4 hover:bg-gray-700 nav-link">
             Contact
-          </a>
+          </a> */}
           <div className="relative p-4">
             <input
               type="text"
