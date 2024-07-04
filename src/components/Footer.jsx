@@ -23,10 +23,10 @@ const Footer = () => {
           <h3>Quick Links</h3>
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#services">Journals</a>
+              <a href="/journal">Journals</a>
             </li>
             <li>
               <a href="#about">Join Us</a>
@@ -35,7 +35,7 @@ const Footer = () => {
               <a href="#contact">Contact</a>
             </li>
             <li>
-              <a href="#submit-manuscript">Submit Manuscript</a>
+              <a href="/submitManuscript">Submit Manuscript</a>
             </li>
             <li>
               <a href="#publication-guidelines">Publication Guidelines</a>
