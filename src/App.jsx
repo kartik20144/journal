@@ -16,6 +16,7 @@ import Register from "./components/Register";
 import Testimonial from "./components/Testimonial";
 import JoinUsBox from "./components/Home/JoinUsBox";
 import JournalGrid from "./components/Home/JournalGrid";
+import SubmitManuscript from "./components/SubmitManuscript";
 
 // import Custm from "./Components/Home/Custm";
 
@@ -89,6 +90,16 @@ function App() {
         <>
           <Header />
           <Register />
+          <Footer />
+        </>
+      ),
+    },
+    {
+      path: "/submitManuscript",
+      element: (
+        <>
+          <Header />
+          <SubmitManuscript />
           <Footer />
         </>
       ),

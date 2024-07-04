@@ -40,7 +40,7 @@ const Header = () => {
           <a href="#contact" className="nav-link">
             Join Us
           </a>
-          <a href="#contact" className="nav-link">
+          <a href="/submitManuscript" className="nav-link">
             Submit Manuscript
           </a>
           {/* <a href="#contact" className="nav-link">
@@ -98,7 +98,7 @@ const Header = () => {
           <a href="#contact" className="block p-4 hover:bg-gray-700 nav-link">
             Join Us
           </a>
-          <a href="#contact" className="block p-4 hover:bg-gray-700 nav-link">
+          <a href="/submitManuscript" className="block p-4 hover:bg-gray-700 nav-link">
             Submit Manuscript
           </a>
           {/* <a href="#contact" className="block p-4 hover:bg-gray-700 nav-link">
