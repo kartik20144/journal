@@ -40,7 +40,7 @@ const JournalGrid = () => {
   return (
     <div className="container mx-auto px-4 py-16">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-extrabold text-gray-800 mb-4">
+        <h2 id="explore" className="text-4xl font-extrabold text-gray-800 mb-4">
           Explore Our <span className="text-green-500">Journals</span>
         </h2>
         <div className="inline-block h-1 w-24 bg-green-500 mb-4"></div>

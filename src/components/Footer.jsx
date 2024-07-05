@@ -9,36 +9,56 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import "./Footer.css";
 
 const Footer = () => {
+
+ 
+    // Function to handle click on Journals link
+    const handleJournalsLinkClick = (event) => {
+      event.preventDefault();
+      window.location.href = '/';
+      setTimeout(() => {
+        window.location.hash = '#explore';
+      }, 100); // Adjust delay as needed
+    };
+
   return (
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-column">
           <h3>About Us</h3>
           <p>
-            We are committed to providing the best services. Our mission is to
-            bring value to our customers.
+            At MedicoScript, we are dedicated to empowering authors in the
+            medical and related fields by providing a seamless publishing
+            experience. Our mission is to eliminate barriers to publication,
+            ensuring that researchers can focus on what matters most: advancing
+            knowledge and improving healthcare. We host a wide range of
+            high-quality journals, offering fast and rigorous peer review
+            processes. Our vision is to support authors every step of the way,
+            fostering innovation and collaboration within the scientific
+            community.
           </p>
         </div>
         <div className="footer-column">
           <h3>Quick Links</h3>
           <ul>
-            <li>
+            {/* <li>
               <a href="/">Home</a>
+            </li> */}
+            <li>
+              <a href="/journal">
+                Journals
+              </a>
             </li>
             <li>
-              <a href="/journal">Journals</a>
-            </li>
-            <li>
-              <a href="#about">Join Us</a>
+              <a href="/submitManuscript">Join Us</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
             </li>
-            <li>
+            {/* <li>
               <a href="/submitManuscript">Submit Manuscript</a>
-            </li>
+            </li> */}
             <li>
-              <a href="#publication-guidelines">Publication Guidelines</a>
+              <a href="/journal/author">Publication Guidelines</a>
             </li>
             <li>
               <a href="#privacy-policy">Privacy Policy</a>
@@ -80,6 +100,8 @@ const Footer = () => {
       </div>
     </footer>
   );
+
 };
+  
 
 export default Footer;
