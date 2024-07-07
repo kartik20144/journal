@@ -232,7 +232,7 @@ import "./Testimonial.css";
 const Testimonial = () => {
   const testimonials = [
     {
-      name: "John Doe",
+      name: "Kartik Agarwal",
       occupation: "Web Developer",
       title: "Fast and Efficient Publication Process",
       content:
@@ -241,7 +241,7 @@ const Testimonial = () => {
       image: "/image1.jpg",
     },
     {
-      name: "Jane Smith",
+      name: "Sahil Sharma",
       occupation: "Designer",
       title: "Quick and Rigorous Peer Review",
       content:
@@ -250,7 +250,7 @@ const Testimonial = () => {
       image: "/image2.jpg",
     },
     {
-      name: "Alice Johnson",
+      name: "Taniya Bansal",
       occupation: "Researcher",
       title: "Exceptional Support and Speedy Publication",
       content:
@@ -259,7 +259,7 @@ const Testimonial = () => {
       image: "/image3.jpg",
     },
     {
-      name: "David Brown",
+      name: "Ayush Tyagi",
       occupation: "Scientist",
       title: "Timely and High-Quality Reviews",
       content:

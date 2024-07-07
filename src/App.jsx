@@ -104,6 +104,7 @@ function App() {
         </>
       ),
     },
+    
   ],
  // { basename: '/journal' }
 );
